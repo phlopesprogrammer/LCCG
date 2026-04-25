@@ -1,0 +1,19 @@
+# 🛠️ Erro: falta de autocomplete de ponto 
+
+## 📌 Descrição
+Ao preencher os campos de espessura, é necessário que seja digitado manualmente o ponto.
+
+## 🎯 Comportamento esperado
+Ao digitar a espessura, por exemplo,o sistema deve inserir ponto na casa decimal correta.
+
+## 🔁 Passos para reproduzir
+1. Acessar tela de Check List Esmeril
+2. Localizar seção de espessuras
+3. Preencher um campo
+
+## ❌ Resultado atual
+Digitando a espessura, temos que inserir o ponto para colocar a espessura correta. Ex: 25.32mm
+
+## 🧠 Observações
+- Deve funcionar para todos os campos com números
+- Considerar apenas dois dígitos após o ponto.
